@@ -2,7 +2,7 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'app.travelbuddy.app',
+  appId: 'app.travelbuddy.mobile',
   appName: 'TravelBuddy',
   webDir: 'dist',
   server: {

@@ -7,6 +7,13 @@ if (typeof window !== 'undefined') {
   window.global = window;
 }
 
+// Make TypeScript happy with this property
+declare global {
+  interface Console {
+    reportErrorsAsExceptions?: boolean;
+  }
+}
+
 // Setup console reports for errors
 console.reportErrorsAsExceptions = false;
 

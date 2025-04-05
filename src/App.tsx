@@ -5,7 +5,6 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { AuthProvider } from './context/AuthContext';
 import Navigation from './navigation/Navigation';
 import { Platform, StatusBar } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
 
 // Initialize React Query client
 const queryClient = new QueryClient();

@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import App from './App.tsx';
 import './index.css';
 import { AppRegistry } from 'react-native-web';
+import './polyfills';
 
 // Register the app
 AppRegistry.registerComponent('TravelBuddy', () => App);
